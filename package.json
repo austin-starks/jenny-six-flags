@@ -1,0 +1,14 @@
+{
+  "name": "jenny-six-flags",
+  "version": "1.0.0",
+  "description": "I'm asking Jenny to go on a date with me",
+  "main": "server/dist/app.js",
+  "scripts": {
+    "install-client-and-build": "cd client && npm install && npm run build",
+    "install-server": "cd server && npm install",
+    "build": "npm run install-client-and-build && npm run install-server",
+    "start": "cd server && ./node_modules/.bin/tsc && node dist/index.js --max-old-space-size=4096"
+  },
+  "author": "Austin Starks",
+  "license": "ISC"
+}

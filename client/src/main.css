@@ -1,0 +1,14 @@
+/* main.css */
+body {
+  background-color: #c86fc9;
+  background-image: linear-gradient(316deg, #c86fc9 0%, #f79ad3 74%);
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bolder;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in the width and height of all elements */
+}
